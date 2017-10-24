@@ -9,7 +9,7 @@
 
 # Write or import your functions in this file
 
-import solution_v7_plot as isaac_solution
+import solution_v7 as isaac_solution
 
 def Tetris(target):
 

@@ -15,7 +15,7 @@ import timeit
 #target = [[1, 0, 1, 1], [1, 1, 1, 1], [0, 1, 1, 1], [1, 1, 0, 0]]  # NOTE: in your test, you may not use this example.
 
 # Uncomment the following line to generate a random target shape
-target = utils.generate_target(width=10, height=10, density=0.6)  # NOTE: it is recommended to keep density below 0.8
+target = utils.generate_target(width=1000, height=1000, density=0.6)  # NOTE: it is recommended to keep density below 0.8
 
 solution = Tetris(target)
 
@@ -66,4 +66,4 @@ else:  # if the solution is valid, test time performance and accuracy
         # Feel free to comment out the following lines if you don't need the visual feedback.
 
         print("Displaying solution...")
-        utils.visualisation(target, solution)
+        #utils.visualisation(target, solution)
